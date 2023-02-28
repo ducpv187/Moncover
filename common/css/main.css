@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans:wght@300&family=Roboto:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
 html,
 body,
 div,
@@ -148,7 +149,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", "Roboto", "Noto Sans JP", sans-serif;
+  font-family: "Open Sans", "Montserrat", "Roboto", "Noto Sans JP", sans-serif;
   font-size: 1.5rem;
   color: #000000;
   background-color: #ffffff;
@@ -366,6 +367,10 @@ ul {
   padding-top: 5rem;
 }
 
+.pl-10 {
+  padding-left: 1rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -380,6 +385,14 @@ ul {
 
 .fs-20 {
   font-size: 2rem;
+}
+
+.fs-italic {
+  font-style: italic;
+}
+
+.txt-ident1 {
+  text-indent: -1rem;
 }
 
 .cl-pink {
@@ -406,8 +419,16 @@ ul {
   color: #a69044;
 }
 
+.cl-white {
+  color: #ffffff !important;
+}
+
 .bg-pink {
   background-color: #d02e8c;
+}
+
+.bg-green {
+  background-color: #09a223;
 }
 
 .thumb {
@@ -455,18 +476,84 @@ ul {
   display: block !important;
 }
 
+.p_top .main {
+  padding: 0 0 10rem 0;
+}
 .p_top .title {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 3.5rem;
 }
 .p_top .title-page {
   font-size: 4rem;
   line-height: 1.2;
+  font-weight: 500;
   color: #000000;
   margin-bottom: 0.5rem;
 }
 .p_top .title .desc {
   line-height: 1.4;
+  font-weight: 400;
   letter-spacing: 0.1rem;
   color: #000000;
 }
+.p_top .row {
+  margin-bottom: 2rem;
+}
+.p_top .row .ttl {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #121212;
+}
+.p_top .content-txt {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #000000;
+  margin-bottom: 2.5rem;
+}
+.p_top .table, .p_top .th, .p_top .td {
+  border: 1px solid #282828;
+}
+.p_top .table {
+  width: 100%;
+}
+.p_top .tr {
+  width: 100%;
+}
+.p_top .th {
+  font-size: 1.4rem;
+  line-height: 2.8571428571;
+  color: #121212;
+  background-color: #ffffff;
+  text-align: center;
+}
+.p_top .ttl-th {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.p_top .desc-th {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+.p_top .th-left {
+  width: 70rem;
+  padding: 0.5rem 1rem;
+}
+.p_top .th-right {
+  width: auto;
+  padding: 0.5rem 1rem;
+}
+.p_top .td {
+  font-size: 1.4rem;
+  color: #282828;
+  background-color: #ffffff;
+  padding: 0.5rem 1rem;
+}
+.p_top .cus__td--ttl {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: #ffffff;
+  background-color: #09a223;
+  text-align: left;
+}/*# sourceMappingURL=main.css.map */
