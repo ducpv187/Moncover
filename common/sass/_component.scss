@@ -1,0 +1,172 @@
+//flex
+.d-flex {
+  display: flex;
+}
+
+//width
+.w-100 {
+  width: 100%;
+}
+.w-35 {
+  width: 3.5rem;
+}
+.w-31 {
+  width: 3.1rem;
+}
+.w-26 {
+  width: 2.6rem;
+}
+
+.w-20  {
+  width: 20rem;
+}
+
+//margin
+.mt-1 {
+  margin-top: 1rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+.mt-4 {
+  margin-top: 4rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.mb-3 {
+  margin-bottom: 3rem;
+}
+.mb-5 {
+  margin-bottom: 5rem;
+}
+.mb-7 {
+  margin-bottom: 7rem;
+}
+
+@include mq_min_969 {
+  .mt-lg-1 {
+    margin-top: 1rem;
+  }
+  .mt-lg-2 {
+    margin-top: 2rem;
+  }
+  .mt-lg-3 {
+    margin-top: 3rem;
+  }
+  .mt-lg-4 {
+    margin-top: 4rem;
+  }
+  .mb-lg-1 {
+    margin-bottom: 1rem;
+  }
+  .mb-lg-2 {
+    margin-bottom: 2rem;
+  }
+  .mb-lg-3 {
+    margin-bottom: 3rem;
+  }
+  .mb-lg-5 {
+    margin-bottom: 5rem;
+  }
+  .mb-lg-7 {
+    margin-bottom: 7rem;
+  }
+}
+
+//padding
+.px-2 {
+  padding: 0 2rem;
+}
+.pt-5 {
+  padding-top: 5rem;
+}
+
+//font-weight
+.font-bold {
+  font-weight: 700;
+}
+
+//color
+.cl-pink {
+  color: $pink;
+}
+.cl-pinkL1 {
+  color: $pink_light1;
+}
+.cl-blue {
+  color: $blue;
+}
+.cl-blueL {
+  color: $blue_light;
+}
+.cl-blue3 {
+  color: $blue3;
+}
+.cl-brown {
+  color: $brown;
+}
+
+
+//background
+.bg-pink {
+  background-color: $pink;
+}
+
+//font-famiy
+@font-face {
+  font-family: 'notosansCJK';
+  src: url("../font/Noto-Sans-Mono-CJK-JP-Regular.otf");
+}
+
+
+//light-heigh
+.thumb {
+  line-height: 0;
+}
+
+
+//position-relative
+.ps-relative {
+  position: relative;
+}
+.ps-absolute {
+  position: absolute;
+}
+
+//translate(X,Y) Center
+.translate-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+
+//show hide pc sp
+.h-pc {
+  display: block;
+  @include mq_min_969 {
+    display: none;
+  }
+}
+.h-sp {
+  display: none;
+  @include mq_min_969 {
+    display: block;
+  }
+}
+// show-hidden
+.d-none {
+  display: none !important;
+}
+.d-block {
+  display: block !important;
+}
