@@ -244,7 +244,7 @@ ul {
   display: inline-block;
   font-size: 1.6rem;
   padding: 1rem 0.5rem;
-  color: #282828;
+  color: #000000;
 }
 @media screen and (max-width: 968px) {
   .footer__list-items a {
@@ -513,7 +513,7 @@ ul {
   margin-bottom: 2.5rem;
 }
 .p_top .table, .p_top .th, .p_top .td {
-  border: 1px solid #282828;
+  border: 1px solid #000000;
 }
 .p_top .table {
   width: 100%;
@@ -546,9 +546,13 @@ ul {
 }
 .p_top .td {
   font-size: 1.4rem;
-  color: #282828;
+  color: #000000;
   background-color: #ffffff;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem 0.5rem 2rem;
+  text-indent: -1.5rem;
+}
+.p_top .td.text-center {
+  text-align: center;
 }
 .p_top .cus__td--ttl {
   font-size: 1.6rem;
@@ -556,4 +560,4 @@ ul {
   color: #ffffff;
   background-color: #09a223;
   text-align: left;
-}/*# sourceMappingURL=main.css.map */
+}

@@ -9,7 +9,7 @@
       font-size: 4rem;
       line-height: 1.2;
       font-weight: 500;
-      color: #000000;
+      color: $black;
       margin-bottom: 0.5rem;
 
     }
@@ -17,7 +17,7 @@
       line-height: 1.4;
       font-weight: 400;
       letter-spacing: 0.1rem;
-      color: #000000;
+      color: $black;
 
     }
   }
@@ -34,7 +34,7 @@
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.4;
-    color: #000000;
+    color: $black;
     margin-bottom: 2.5rem;
   }
 
@@ -74,7 +74,11 @@
     font-size: 1.4rem; 
     color: $black;
     background-color: $white;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 2rem;
+    text-indent: -1.5rem;
+    &.text-center {
+      text-align: center;
+    }
   }
   .cus__td--ttl {
     font-size: 1.6rem;  
