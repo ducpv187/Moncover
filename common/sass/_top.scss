@@ -18,18 +18,24 @@
       font-weight: 400;
       letter-spacing: 0.1rem;
       color: $black;
-
     }
   }
   .row {
     margin-bottom: 2rem;   
+    .ttl {
+      font-size: 1.8rem;
+      line-height: 1.4;
+      font-weight: 700;
+      color: $black3;
+    }
+    .desc-ttl {
+      font-size: 1.6rem;
+      line-height: 1.4;
+      font-weight: 700;
+      color: $black3;
+    }
   }
-  .ttl {
-    font-size: 1.8rem;
-    line-height: 1.4;
-    font-weight: 600;
-    color: $black3;
-  }
+
   .content-txt {
     font-size: 1.6rem;
     font-weight: 400;

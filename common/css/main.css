@@ -211,61 +211,6 @@ ul {
   width: 20rem;
 }
 
-.footer__top {
-  padding: 4rem 0 5rem;
-  background-color: #f3f3f3;
-}
-@media screen and (max-width: 968px) {
-  .footer__top {
-    padding: 2.5rem 0 3rem;
-  }
-}
-.footer__logo {
-  width: 23rem;
-  margin: 0 auto;
-  margin-bottom: 4rem;
-}
-.footer__list {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 5rem;
-}
-@media screen and (max-width: 968px) {
-  .footer__list-items {
-    text-align: center;
-    width: 100%;
-    padding: 0.5rem;
-  }
-}
-.footer__list-items a {
-  display: inline-block;
-  font-size: 1.6rem;
-  padding: 1rem 0.5rem;
-  color: #000000;
-}
-@media screen and (max-width: 968px) {
-  .footer__list-items a {
-    padding: 0;
-  }
-}
-.footer .footer__bot {
-  padding: 1.5rem 0;
-  font-size: 1.2rem;
-  line-height: 1.2;
-  font-family: "shinGoPro";
-  color: #f3f3f3;
-  background-color: #393838;
-  text-align: center;
-}
-@media screen and (max-width: 968px) {
-  .footer .footer__bot {
-    padding: 1rem 0;
-  }
-}
-
 .d-flex {
   display: flex;
 }
@@ -511,10 +456,16 @@ ul {
 .p_top .row {
   margin-bottom: 2rem;
 }
-.p_top .ttl {
+.p_top .row .ttl {
   font-size: 1.8rem;
   line-height: 1.4;
-  font-weight: 600;
+  font-weight: 700;
+  color: #121212;
+}
+.p_top .row .desc-ttl {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: 700;
   color: #121212;
 }
 .p_top .content-txt {
