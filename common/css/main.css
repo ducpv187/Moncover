@@ -367,6 +367,14 @@ ul {
   padding-top: 5rem;
 }
 
+.pl-1 {
+  padding-left: 1rem;
+}
+
+.pl-2 {
+  padding-left: 2rem;
+}
+
 .pl-10 {
   padding-left: 1rem;
 }
@@ -393,6 +401,10 @@ ul {
 
 .txt-ident1 {
   text-indent: -1rem;
+}
+
+.text-underline {
+  text-decoration: underline;
 }
 
 .cl-pink {
@@ -499,7 +511,7 @@ ul {
 .p_top .row {
   margin-bottom: 2rem;
 }
-.p_top .row .ttl {
+.p_top .ttl {
   font-size: 1.8rem;
   line-height: 1.4;
   font-weight: 600;
