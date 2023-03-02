@@ -193,22 +193,26 @@ ul {
   padding: 1.5rem 0;
 }
 .header .d__flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: inline-block;
+  width: 100%;
 }
 .header .link__logo {
   display: inline-block;
 }
 .header .header__logo {
-  display: flex;
   line-height: 0;
 }
 .header .logo-left {
+  float: left;
   width: 25rem;
+  margin-top: 5rem;
 }
 .header .logo-right {
   width: 20rem;
+  float: right;
+}
+.header .cler-both {
+  clear: both;
 }
 
 .d-flex {

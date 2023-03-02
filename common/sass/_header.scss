@@ -1,22 +1,28 @@
 .header {
   padding: 1.5rem 0;
   .d__flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: inline-block;
+    width: 100%;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
   }
   .link__logo {
     display: inline-block;
   }
   .header__logo {
-    display: flex;
     line-height: 0;
-
   }
   .logo-left {
-    width: 25rem
+    float: left;
+    width: 25rem;
+    margin-top: 5rem;
   }
   .logo-right {
     width: 20rem;
+    float: right;
+  }
+  .cler-both {
+    clear: both;
   }
 }
