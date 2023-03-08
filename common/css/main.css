@@ -215,6 +215,27 @@ ul {
   clear: both;
 }
 
+.footer {
+  padding-bottom: 10rem;
+}
+.footer .c-left {
+  float: left;
+  text-align: left;
+}
+.footer .c-right {
+  float: right;
+  text-align: center;
+}
+.footer .clear-both {
+  clear: both;
+}
+.footer .txt {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #000000;
+}
+
 .d-flex {
   display: flex;
 }
