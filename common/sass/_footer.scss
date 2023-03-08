@@ -2,19 +2,29 @@
   padding-bottom: 10rem;
   .c-left {
     float: left;
-    text-align: left;
   }
   .c-right {
-    float: right;
-    text-align: center;
+    float: right;  
   }
   .clear-both {
     clear: both;
   }
-  .txt {
+  .top {
+    text-align: center;
+  }
+  .bottom {
+    text-align: center;
+  }
+  .txt-black {
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 1.4;
     color: #000000;
+  }
+  .txt-red {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: red;
   }
 }
